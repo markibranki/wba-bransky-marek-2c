@@ -1,0 +1,118 @@
+* {
+    font-family: roboto;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(203, 195, 179);
+
+}
+
+.head-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    height: 120px;
+    margin-left: 170px;
+}
+
+.logo-wrap {
+    flex-grow: 4;
+}
+
+.item-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+body {
+    margin: 0;
+}
+
+.item1,
+.item2,
+.item3 {
+    transition-duration: 0.5s;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 50%;    
+}
+
+.item3 :visited{
+    color: black;
+}
+
+.item1 :visited{
+    color: black;
+}
+
+.item2, .active{
+    background-color: rgb(165, 159, 146);
+    text-decoration: none;
+    color: black;
+}
+
+.item1{
+    color: black;
+}
+
+.item1:hover {
+    background-color: rgb(165, 159, 146);
+    cursor: pointer;
+}
+
+.item2:hover {
+    background-color: rgb(165, 159, 146);
+    cursor: pointer;
+}
+
+.item3:hover {
+    background-color: rgb(165, 159, 146);
+    cursor: pointer;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.grid-wrap{
+    justify-content: center;
+    column-gap: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 250px 250px 250px;
+}
+
+.text img{
+    height: 100px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(203, 195, 179);
+    height: 150px;
+    bottom: 0;
+    position: sticky;
+    margin-top: 150px;
+}
